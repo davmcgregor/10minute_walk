@@ -1,5 +1,10 @@
 class App
   def tenminuteswalk(arr)
+
+    if arr.length != 10
+      return false
+    end
+    
     direction_counter = 0
 
     arr.each { |letter|
