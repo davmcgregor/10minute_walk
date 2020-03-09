@@ -5,6 +5,9 @@ class App
     arr.each { |letter|
       if letter === 'n'
         direction_counter += 1
+      elsif
+        letter === 'e'
+        direction_counter += 1
       else
         direction_counter -= 1
       end
